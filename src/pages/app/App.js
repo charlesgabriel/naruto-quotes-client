@@ -1,11 +1,11 @@
-import { Fragment } from 'react';
-import { GlobalStyle } from '../../components';
+import narutoImg from '../../images/naruto.png';
 
 export function App() {
   return (
-    <Fragment>
-      <GlobalStyle />
-      <div>Hello</div>
-    </Fragment>
+    <div>
+      <p>quote xpto - Speaker</p>
+      <button>Quote no Jutsu</button>
+      <img src={narutoImg} alt="naruto with a kunai" />
+    </div>
   );
 }
